@@ -31,6 +31,7 @@ type User struct {
 	Department                   string    `json:"department"`
 	WantsNewsletter              bool      `json:"wants_newsletter"`
 	UpdatedAt                    time.Time `json:"updated_at"`
+	Roles                        []string  `json:"roles"`
 	CostRate                     float64   `json:"cost_rate"`
 	WeeklyCapacity               int64     `json:"weekly_capacity"`
 	IdentityAccountID            int64     `json:"identity_account_id"`
